@@ -2,22 +2,21 @@
 /* **************************************************************** */
 
 /* HEADER */
-.container {
-    padding: 1.5em;
-}
-
 
 header {
     background-color: aquamarine;
     display:flex;
     padding: 0 15px;
     align-items: center;
+    justify-content: space-between;
 }
 
-nav {
-    display:flex;
-}
+/* <!-- IPAD --> */
+ @media only screen and (min-witdh:768px){
+    header {
+        flex-direction: row-reverse;
+    }
+ }
 
-
-
+    
 
