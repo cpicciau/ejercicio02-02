@@ -1,4 +1,16 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/* HEADER */
+
+header {
+    background-color: aquamarine;
+}
+
+nav {
+    display:flex;
+}
+
+
+
 
