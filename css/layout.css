@@ -12,10 +12,6 @@ header {
 }
 
 /* MOBILE */
-    .menu_mobile {
-        display: block;
-    }
-
     .menu_desktop {
         display: none;
     }
