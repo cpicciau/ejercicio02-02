@@ -23,6 +23,7 @@ header {
     }
  }
 
+ /* DESKTOP */
  @media only screen and (min-width:1000px){
     .menu_mobile {
         display: none;
@@ -30,6 +31,7 @@ header {
 
     .menu_desktop {
         display: block;
+        flex-grow: 1;
     }
  }
 
